@@ -131,6 +131,14 @@ export default function Personal() {
       initial="hidden"
       animate="visible"
     >
+      {/* Cover image at the top */}
+      <div className="w-full flex justify-center mb-8">
+        <img
+          src="/cover.jpg"
+          alt="Cover"
+          className="rounded-2xl w-full max-w-3xl object-cover shadow-lg"
+        />
+      </div>
       <motion.section
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
